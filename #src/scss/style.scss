@@ -9,6 +9,8 @@
 //&display=swap&subset=cyrillic-ext
 // @import "fonts";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 @font-face {
 	font-family: "Lato";
 	src: url("../fonts/Lato-Thin.eot");
@@ -76,7 +78,7 @@
 //</Иконочные шрифты>==========================================================================================
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontFamily: "";
+$fontFamily: "Lato";
 $fontSize: 16;
 //</Шрифт по умолчанию>==========================================================================================
 
@@ -91,7 +93,7 @@ $md2: 991.98;
 $md3: 767.98;
 $md4: 479.98;
 
-$mainColor: #000;
+$mainColor: #161615;
 
 //</ПЕРЕМЕННЫЕ>===========================================================================================================
 
@@ -99,11 +101,12 @@ $mainColor: #000;
 @import "null";
 body {
 	font-weight: 400;
+	line-height: 23px;
 	color: $mainColor;
 	background: #333;
 	a {
 		font-family: "Lato";
-		color: #1a1818;
+		color: #161615;
 	}
 	&._lock {
 		overflow: hidden;
@@ -113,26 +116,33 @@ body {
 
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
-	font-size: 35px;
-	font-weight: 500;
-	line-height: 52.8 / 40 *100%;
-	line-height: 38px;}
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 46 / 48 *100%;}
 h2 {
-	font-size: 32px;
-	font-weight: 500;
-	line-height: 38px;}
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48 / 40 *100%;}
 h3 {
 	font-size: 28px;
 	font-weight: 500;
 	line-height: 38px;}
 h4 {
-	font-size: 25px;
-	font-weight: 500;
-	line-height: 38px;}
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.8 / 24 *100%;}
+
+h5 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24 / 20 *100%;}
+
+h6 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23 / 18 *100%;}
 	
 	.title {
-		text-align: center;
-		color: #222222;
 		margin-bottom: 38px;
 	}
 	
@@ -203,7 +213,7 @@ h4 {
 .page {
 	flex: 1 1 auto;
 	// padding: 35px 0; 
-	padding-top: 80px;
+	// padding-top: 80px;
 }
 //===================================================================================================================================
 
