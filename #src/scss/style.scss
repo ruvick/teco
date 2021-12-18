@@ -427,6 +427,66 @@ h6 {
 	padding: 0 7.5px;
 	margin-bottom: 15px;
 }
+//========================================================================================================================================================
+
+.products-sec {
+	padding: 36px 0 52px 0;
+	&__title {
+		margin-bottom: 37px;
+	}
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -15px;
+	}
+
+	&__column {
+		display: flex;
+		flex: 0 1 33.333%;
+		padding: 0 15px;
+		margin-bottom: 30px;
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		flex: 0 1 100%;
+		background: #E8E8E8;
+		overflow: hidden;
+		padding-bottom: 31px;
+	}
+
+	&__card-img {
+		height: 243px;
+		overflow: hidden;
+	}
+
+	&__card-descp {
+		flex: 1 1 auto;
+		padding: 21px 15px 0 64px;
+		margin-bottom: 32px;
+	}
+
+	&__card-descp-title {
+		margin-bottom: 16px;
+	}
+
+	&__card-descp-list {
+
+	}
+
+	&__card-descp-list-item {
+		font-size: 14px;
+		margin-bottom: 8px;
+		&:last-child{margin:0px 0px 0px 0px;}
+	}
+
+	&__card-btn {
+		padding: 0 15px 0 64px;
+	}
+}
+
 
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
