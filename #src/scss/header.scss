@@ -10,6 +10,27 @@
 	}
 }
 
+.header_index {
+	position: absolute;
+	width: 100%;
+	background: transparent;
+}
+.header__row_index {
+	&::before{
+		content:'';
+		position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+		max-width: auto;
+		width: 1440px;
+		height: 1px;
+		background: #fff;
+		opacity: 0.64;
+	}
+}
+
 // .header__container {
 // 	max-width: 1600px;
 // 	margin-right: 80px;
