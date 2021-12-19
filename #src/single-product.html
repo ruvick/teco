@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Товар"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('_header.html',{})
+    <main class="page">
+
+      <section id="title-navigation" class="title-navigation">
+        <div class="_container">
+          <p id="breadcrumbs">
+            <span>
+              <span>
+                <a href="index.html">
+                  Главная
+                </a> /
+                <a href="catalog.html">
+                  Каталог
+                </a> /
+                <a href="catalog.html">
+                  Конвейерная лента
+                </a> /
+                <a href="catalog.html">
+                  Резинотканевые ленты
+                </a> /
+                <span class="breadcrumb_last" aria-current="page">
+                  Лента конвейерная 2.2-650-4-ТК-200-2-5/2 РБ
+                </span>
+              </span>
+            </span>
+          </p>
+          <h2 class="title-navigation__title">Лента конвейерная 2.2-650-4-ТК-200-2-5/2 РБ</h2>
+        </div>
+      </section>
+
+      <section id="product-sec" class="product-sec recurring">
+        <div class="_container">
+
+          <div class="product-sec__row">
+
+            <div class="product-sec__img">
+              <img src="img/product-sl.jpg" alt="">
+            </div>
+
+            <div class="product-sec__descp">
+              <h6 class="product-sec__descp-title">Сфера применения:</h6>
+              <p class="product-sec__descp-text">Износостойкая конвейерная лента для транспортировки высоко абразивных,
+                остроконечных материалов,
+                с высокой стойкостью к разрывам, износу и чистящим процедурам. Истирание 100 мм3.
+              </p>
+              <h6 class="product-sec__descp-title">Используемый эластомер: И</h6>
+              <ul class="product-sec__descp-list">
+                <li class="product-sec__descp-list-item">1.2И – для тяжелых условий эксплуатации (с брекерной
+                  прокладкой)</li>
+                <li class="product-sec__descp-list-item">2И – для средних условий эксплуатации</li>
+                <li class="product-sec__descp-list-item">2ЛИ – для легких условий эксплуатации</li>
+              </ul>
+              <p class="product-sec__descp-footnote">
+                * Характеристики продукции носят информационный характер, при заказе просьба уточнять
+                у менеджеров нашей компании.
+              </p>
+            </div>
+
+          </div>
+
+          <!-- <div class="popup-arrange__table-wrap"> -->
+          <table class="product-sec__table">
+            <thead class="product-sec__table-thead">
+              <tr class="product-sec__table-thead-tr">
+                <td class="product-sec__table-thead-td">Тип ленты</td>
+                <td class="product-sec__table-thead-td">Тип ткани прокладки</td>
+                <td class="product-sec__table-thead-td">Количество прокладок</td>
+                <td class="product-sec__table-thead-td">Прочность на разрыв Н/мм</td>
+                <td class="product-sec__table-thead-td">Дата окончания</td>
+              </tr>
+            </thead>
+            <tbody class="product-sec__table-tbody">
+              <tr class="product-sec__table-tbody-tr">
+                <td class="product-sec__table-tbody-td">1.2И, 2И</td>
+                <td class="product-sec__table-tbody-td">ТК-200-2, ТЛК-200-МА</td>
+                <td class="product-sec__table-tbody-td">4</td>
+                <td class="product-sec__table-tbody-td">800</td>
+                <td class="product-sec__table-tbody-td">РБ, НБ</td>
+              </tr>
+              <tr class="product-sec__table-tbody-tr">
+                <td class="product-sec__table-tbody-td">1.2И, 2И</td>
+                <td class="product-sec__table-tbody-td">ТК-200-2, ТЛК-200-МА</td>
+                <td class="product-sec__table-tbody-td">4</td>
+                <td class="product-sec__table-tbody-td">800</td>
+                <td class="product-sec__table-tbody-td">РБ, НБ</td>
+              </tr>
+              <tr class="product-sec__table-tbody-tr">
+                <td class="product-sec__table-tbody-td">1.2И, 2И</td>
+                <td class="product-sec__table-tbody-td">ТК-200-2, ТЛК-200-МА</td>
+                <td class="product-sec__table-tbody-td">4</td>
+                <td class="product-sec__table-tbody-td">800</td>
+                <td class="product-sec__table-tbody-td">РБ, НБ</td>
+              </tr>
+              <tr class="product-sec__table-tbody-tr">
+                <td class="product-sec__table-tbody-td">1.2И, 2И</td>
+                <td class="product-sec__table-tbody-td">ТК-200-2, ТЛК-200-МА</td>
+                <td class="product-sec__table-tbody-td">4</td>
+                <td class="product-sec__table-tbody-td">800</td>
+                <td class="product-sec__table-tbody-td">РБ, НБ</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- </div> -->
+
+        </div>
+      </section>
+
+      @@include('_similar-products.html',{})
+
+      @@include('_consult-sec.html',{})
+
+      @@include('_team-sec.html',{})
+
+    </main>
+    @@include('_footer.html',{})
+  </div>
+  @@include('_popup.html',{})
+  @@include('_js.html',{})
+</body>
+
+</html>
