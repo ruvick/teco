@@ -1,6 +1,6 @@
 // Хлебные крошки ===============================================================================================================================================
 #breadcrumbs {
-  margin-bottom: 40px; }
+  margin-bottom: 22px; }
 
 #breadcrumbs ul {
   display: -webkit-box;
@@ -13,26 +13,29 @@
   flex-wrap: wrap; }
 
 #breadcrumbs span {
+	font-family: "MyriadPro";
   font-size: 14px;
-  font-weight: 300;
-  line-height: 23px;
-  color: #000; }
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #161615; }
 
 #breadcrumbs span a {
+	font-family: "MyriadPro";
   font-size: 14px;
-  font-weight: 300;
-  line-height: 23px;
-  margin-right: 5px;
-  color: #5E5E5E;
-  text-decoration: underline; }
+  font-weight: 400;
+  line-height: 16.8px;
+  // margin-right: 5px;
+  color: #161615;}
 
 // Пагинация 1 ===============================================================================================================================================
 .pagination {
 	justify-content: center;
+	margin-top: 43px;
 	// .pagination__nav-links
 	&__nav-links {
-		max-width: 500px;
+		// max-width: 500px;
 		width: 100%;
+		justify-content: flex-end;
 		align-items: center;
 	}
 	// .pagination__back 
@@ -60,8 +63,17 @@
 	}
 	// .pagination__numbers
 	&__numbers {
-		margin-right: 20px;
-		font-size: 16px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 32px;
+		height: 32px;
+		font-size: 18px;
+		font-weight: 700;
+		border: 0.83px solid #161615;
+		margin-right: 7px;
+		&:last-child{margin:0px 0px 0px 0px;}
 	}
 	&__block-dot {
 		margin-right: 20px;
@@ -98,7 +110,9 @@
 	}
 }
 .current {
-	color: #d3820f;
+	color: #fff;
+	background: #AE0018;
+	border: none;
 }
 
 // Пагинация 3 ===============================================================================================================================================

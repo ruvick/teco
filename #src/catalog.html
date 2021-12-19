@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+"title":"Каталог"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('_header.html',{})
+    <main class="page">
+
+      <section id="title-navigation" class="title-navigation">
+        <div class="_container">
+          <p id="breadcrumbs">
+            <span>
+              <span>
+                <a href="index.html">
+                  Главная
+                </a> /
+                <a href="index.html">
+                  Каталог
+                </a> /
+                <span class="breadcrumb_last" aria-current="page">
+                  Конвейерная лента
+                </span>
+              </span>
+            </span>
+          </p>
+          <h2 class="title-navigation__title">Резинотканевые конвейерные ленты</h2>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog">
+        <div class="_container">
+
+          <div class="catalog__wrap">
+
+            <div class="catalog__sidebar">
+              <ul class="catalog__sidebar-menu-list">
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link _active">Антистатические ленты</a></li>
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link">Износостойкие ленты</a></li>
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link">Кислотостойкие ленты</a></li>
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link">Ленты общего назначения</a></li>
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link">Маслостойкие ленты</a></li>
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link">Морозостойкие ленты</a></li>
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link">Пищевые ленты</a></li>
+                <li class="catalog__sidebar-menu-list-item"><a href="#"
+                    class="catalog__sidebar-menu-list-item-link">Теплостойкие ленты</a></li>
+              </ul>
+            </div>
+
+            <div class="catalog__main">
+              @@include('_catalog-product.html',{})
+            </div>
+
+          </div>
+
+          <nav class="pagination d-flex">
+            <div class="pagination__nav-links d-flex">
+              <!-- <a class="pagination__back" href="#">Назад</a> -->
+              <span class="pagination__numbers">1</span>
+              <a class="pagination__numbers current" href="#">2</a>
+              <a class="pagination__numbers" href="#">3</a>
+              <a class="pagination__numbers" href="#">4</a>
+              <!-- <div class="pagination__block-dot d-flex">
+                <span class="pagination__dot">.</span>
+                <span class="pagination__dot">.</span>
+                <span class="pagination__dot">.</span>
+              </div> -->
+              <!-- <a class="pagination__next" href="#">Вперед</a> -->
+            </div>
+          </nav>
+
+        </div>
+      </section>
+
+      @@include('_consult-sec.html',{})
+
+      @@include('_team-sec.html',{})
+
+    </main>
+    @@include('_footer.html',{})
+  </div>
+  @@include('_popup.html',{})
+  @@include('_js.html',{})
+</body>
+
+</html>

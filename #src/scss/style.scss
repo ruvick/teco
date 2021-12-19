@@ -198,7 +198,7 @@ h6 {
 //@import "popover.min";
 //@import "baguetteBox";
 // @import "fancybox.min";
-//@import "pagging";
+@import "pagging";
 // @import "map";
 // @import "slider";
 // @import "collection";
@@ -408,24 +408,6 @@ h6 {
 	&__card-btn {
 		width: 100%;
 	}
-}
-//========================================================================================================================================================
-// Catalog-product
-.catalog-product__container {
-	max-width: 1170px;
-	width: 100%;
-	margin: 0px auto;
-}
-
-.catalog-product__row {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 -7.5px;
-}
-.catalog-product__column {
-	flex: 0 1 24.95%;
-	padding: 0 7.5px;
-	margin-bottom: 15px;
 }
 //========================================================================================================================================================
 
@@ -671,6 +653,74 @@ h6 {
 		&:last-child{margin:0px 0px 0px 0px;}
 	}
 }
+//========================================================================================================================================================
+
+.title-navigation {
+	padding: 36px 0 25px 0;
+	&__title {
+
+	}
+}
+//========================================================================================================================================================
+
+// Catalog-product
+.catalog {
+	padding: 25px 0 50px 0;
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__sidebar {
+    flex: 0 1 16%;
+		margin-right: 40px;
+	}
+
+	&__sidebar-menu-list {
+	}
+
+	&__sidebar-menu-list-item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 3.5px;
+		&:last-child{margin:0px 0px 0px 0px;}
+	}
+
+	&__sidebar-menu-list-item-link {
+		font-size: 16px;
+		line-height: 19.2px;
+		color: #fff;
+		padding: 9px 10px 9px 20px;
+		width: 100%;
+		background: #757474;
+	}
+
+	&__main {
+		flex: 1 1 auto;
+	}
+}
+
+.catalog__sidebar-menu-list-item-link._active {
+	background: #AE0018;
+}
+
+.catalog-product__container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.catalog-product__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -7.5px;
+}
+.catalog-product__column {
+	flex: 0 1 24.95%;
+	padding: 0 7.5px;
+	margin-bottom: 15px;
+}
+//========================================================================================================================================================
 
 
 
