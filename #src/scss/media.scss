@@ -19,6 +19,8 @@
 		margin: 0 -5px;}
 	.team__column {
 		padding: 0 5px;}
+	.catalog__sidebar {
+		margin-right: 25px;}
 }
 
 @media (max-width: 1200px) {
@@ -39,7 +41,9 @@
 @media (max-width: 1150px) {
 	.completed-projects__card-descp {
 		padding: 14px 15px 19px 25px;}
-	}
+	.catalog-product__column {
+		flex: 0 1 33.333%;}
+}
 
 @media (max-width: 1024px) {
 	.products-sec__column {
@@ -82,6 +86,8 @@
 		padding: 5px 0 5px 30px;}
 	.header__logo {
 		margin-right: 20px;}
+	.catalog-product__column {
+		flex: 0 1 50%;}
 }
 
 @media (max-width: 830px) { 
@@ -267,11 +273,50 @@
 		padding: 0 10px 0 20px;}
 	.team__card {
 		padding-bottom: 25px;}
+	.page {
+		padding-top: 30px;}
+	#breadcrumbs {
+		margin-bottom: 10px;}
+	.catalog__wrap {
+		flex-wrap: wrap;}
+	.catalog__sidebar {
+		flex: 0 1 100%;
+		margin-right: 0;
+		margin-bottom: 15px;}
+	.catalog {
+		padding: 10px 0 25px 0 !important;}
+	.catalog__sidebar-menu-list {
+		display: flex;
+    flex-wrap: wrap;}
+	.catalog__sidebar-menu-list-item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 3.5px;
+		flex: 0 1 32.9%;
+		margin-right: 3px;}
+	.catalog__sidebar-menu-list-item:last-child {
+		margin-bottom: 3.5px;}
+	.catalog-product__column {
+		flex: 0 1 33.333%;
+		padding: 0 5px;}
+	.product__card-descp {
+		padding: 15px 10px 15px 10px;}
+	.product__card-descp-title {
+		font-size: 16px;}
+	.product__card-descp-title br {
+		display: none;}
+	.product__card-btn {
+		font-size: 14px;
+		padding: 6px 22px;}
+	.pagination {
+		margin-top: 20px;}
 }
 
 @media (max-width: 730px) {
 	.consult__form-input {
 		flex: 0 1 29%;}
+	.catalog__sidebar-menu-list-item {
+		flex: 0 1 49.5%;}
 }
 
 @media (max-width: 700px) {
@@ -286,6 +331,11 @@
 		margin-bottom: 10px;}
 	.team__column {
 		flex: 0 0 48%;}
+}
+
+@media (max-width: 630px) {
+	.catalog__sidebar-menu-list-item {
+		flex: 0 1 49.3%;}
 }
 
 @media (max-width: 612px) {
@@ -306,6 +356,11 @@
 		padding: 5px 0 5px 0px;}
 	.completed-projects__column {
 		flex: 0 0 68%;}
+}
+
+@media (max-width: 540px) {
+	.catalog-product__column {
+		flex: 0 1 50%;}
 }
 
 @media (max-width: 515px) {
@@ -340,6 +395,9 @@
 		flex: 0 0 90%;}
 	.team__column {
 		flex: 0 0 65%;}
+	.catalog__sidebar-menu-list-item {
+		margin-right: 0;
+		flex: 0 1 100%;}
 }
 
 @media (max-width: 460px) {
@@ -362,6 +420,8 @@
 		flex: 0 0 80%;}
 	.completed-projects__column {
 		flex: 0 0 93%;}
+	.product__card-img {
+		height: 150px;}
 }
 
 @media (max-width: 375px) {
@@ -369,6 +429,10 @@
 		flex: 0 0 110%;}
 	.team__column {
 		flex: 0 0 83%;}
+	.catalog-product__column {
+		flex: 0 1 100%;}
+	.product__card-img {
+		height: 170px;}
 }
 
 @media (max-width: 360px) {
